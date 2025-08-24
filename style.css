@@ -1,0 +1,37 @@
+@import url('styles/header.css');
+
+:root{
+    --color-background-default: #C4C4C4;
+    --color-surface-default: #ffffff;
+    --color-surface-inverted: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --color-button-bg-default: #EB9B00;
+    --color-text-button-default: #ffffff;
+    --color-text-body-default: #000000;
+    --color-text-body-inverted: #ffffff;
+    --color-text-heading-primary: #002F52;
+    --color-text-heading-secondary: #EB9B00;
+    --color-icon-primary:#002F52;
+    --color-icon-secondary: #ffffff;
+    --color-icon-tertiary: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --color-border-input-default: #ffffff;
+    --color-border-input-inverted: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --font-family: "Poppins", sans-serif;
+    --font-weith-regular: 400;
+    --font-weith-medium: 500;
+    --font-weith-bold: 700;
+    --font-size-body-default: 16px;
+    --font-size-body-small: 14px;
+    --font-size-body-large: 18px;
+
+    --font-size-title: 36px;
+    --font-size-subtitle: 26px;
+    --font-size-label: 24px;
+
+}
+
+body{
+    background-color: var(--color-background-default);
+}
+
+
