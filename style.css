@@ -1,8 +1,9 @@
 @import url('styles/header.css');
 @import url("styles/banner.css");
+@import url("styles/carousel.css");
 
 :root{
-    --color-background-default: #C4C4C4;
+    --color-background-default: #EBECEE;
     --color-surface-default: #ffffff;
     --color-surface-inverted: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --color-button-bg-default: #EB9B00;
