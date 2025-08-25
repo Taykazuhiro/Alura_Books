@@ -58,3 +58,7 @@ display: inline-block;
 .container__menu:checked ~ .menu-list{
     display: block;
 }
+
+.container__menu{
+    display: none;
+}

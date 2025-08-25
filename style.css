@@ -1,4 +1,5 @@
 @import url('styles/header.css');
+@import url("styles/banner.css");
 
 :root{
     --color-background-default: #C4C4C4;
@@ -17,9 +18,10 @@
     --color-border-input-inverted: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 
     --font-family: "Poppins", sans-serif;
-    --font-weith-regular: 400;
-    --font-weith-medium: 500;
-    --font-weith-bold: 700;
+    --font-weigth-light: 300;
+    --font-weigth-regular: 400;
+    --font-weigth-medium: 500;
+    --font-weigth-bold: 700;
     --font-size-body-default: 16px;
     --font-size-body-small: 14px;
     --font-size-body-large: 18px;
@@ -32,6 +34,7 @@
 
 body{
     background-color: var(--color-background-default);
+    font-family: var(--font-family);
 }
 
 
