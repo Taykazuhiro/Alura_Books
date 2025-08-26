@@ -1,6 +1,9 @@
 @import url('styles/header.css');
 @import url("styles/banner.css");
 @import url("styles/carousel.css");
+@import url("styles/topics.css");
+@import url("styles/contact.css");
+@import url("styles/footer.css");
 
 :root{
     --color-background-default: #EBECEE;
@@ -19,6 +22,7 @@
     --color-border-input-inverted: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 
     --font-family: "Poppins", sans-serif;
+    --font-secondary: "Josefin Sans", sans-serif;
     --font-weigth-light: 300;
     --font-weigth-regular: 400;
     --font-weigth-medium: 500;

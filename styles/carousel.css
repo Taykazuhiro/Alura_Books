@@ -30,6 +30,7 @@
     display: flex;
     justify-content: space-between;
     margin: 1em 0;
+    text-align: center;
 }
 
 .buttons__list{
@@ -40,7 +41,7 @@
 .card{
     background-color: var(--color-surface-default);
     padding: 1em;
-    margin: 0.5em 1.5em;
+    margin: 0.5em 1.5em 1em 1.5em;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -73,5 +74,14 @@
 .buttons__list{
     display: flex;
     gap: 24px;
-
 }
+
+.card__link{
+    background-color: var(--color-button-bg-default);
+    color: var(--color-text-button-default);
+    font-size: var(--font-size-body-default);
+    font-weight: var(--font-weigth-bold);
+    padding: 1em 2.2em;
+    text-decoration: none;
+}
+

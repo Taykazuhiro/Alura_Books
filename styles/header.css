@@ -62,3 +62,52 @@ display: inline-block;
 .container__menu{
     display: none;
 }
+
+.container__left-title{
+    display: none;
+}
+
+.tabs__list{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__left-title, .container__left-title--bold{
+        font-family: var(--font-secondary);
+        font-size: 30px;
+    }
+
+    .container__left-title{
+        font-weight: var(--font-weigth-regular);
+        display: block;
+    }
+
+    .container__left-title--bold{
+        font-weight: var(--font-weigth-bold);
+    }
+
+    .tabs__list{
+        display: flex;
+    }
+
+    .tabs__item{
+        padding: 0.5em 2em 0.5em 0.5em;
+        font-size: var(--font-size-body-default);
+        color: var(--color-text-body-default);
+        font-weight: var(--font-weigth-regular);
+    }
+    
+    .tabs__link{
+        text-decoration: none;
+        font-size: var(--font-size-body-default);
+        color: var(--color-text-body-default);
+        font-weight: var(--font-weigth-regular);
+    }
+
+    .container__right--icon{
+        display: none;
+}
+    .nav__menu{
+        display: none;
+    }
+}
